@@ -1,0 +1,117 @@
+.rubik-distressed {
+  font-family: "Rubik Distressed", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+}
+
+
+.oswald-bold {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+    background-color: #111111;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.img-styling {
+    display: flex;
+    max-width: 100vw;
+    border-radius: 1.5%;
+    padding: 0% 1% 0% 1%;
+    justify-items: center;
+}
+
+.nav-link {
+    color: blue;
+}
+
+
+.item-box {
+    display: flex;
+    flex-wrap: nowrap;
+    border: solid 2px;
+    border-color: blue;
+    color: blue;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 0px;
+    border-radius: 20px ;
+    text-decoration: none;  
+}
+
+.item-box:hover {
+    background-color: rgb(55, 55, 55);
+}
+
+.adventure-box {
+    background-color: rgb(22, 22, 22);
+    width: 60%;
+    margin-top: 20px;
+    color: blue;
+}
+
+.adventure-list {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.carousel-box {
+    width: 75%;
+}
+
+hr {
+    border: solid 1.5px gray;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer-title {
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.contact-info {
+    padding-right: 5px;
+}
+
+.sponsor-box {
+    list-style: none;
+}
+
+.logo {
+    width: 200px;
+    padding-bottom: 15px;
+}
