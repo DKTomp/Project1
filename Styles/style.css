@@ -149,3 +149,61 @@ hr {
     color: white;
     text-transform: uppercase;
 }
+
+.info-page {
+    color: white;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    padding: 10px 0px 15px 20px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.info-title {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.info-price {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.form-title{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.form-container {
+    display: flex;
+    background-color: #333333;
+    color: white;
+}
+
+.form-box {
+    display: flex;
+    padding-bottom: 20px;
+    width: 300px;
+    justify-content: end;
+}
+
+.form-label-box {
+    display: flex;
+    width: 145px;
+}
