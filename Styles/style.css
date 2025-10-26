@@ -207,3 +207,8 @@ hr {
     display: flex;
     width: 145px;
 }
+
+.aboutus-container {
+    background-color: #333333;
+    color: white;
+}
