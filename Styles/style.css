@@ -49,6 +49,10 @@ body {
     justify-items: center;
 }
 
+.navbar-logo {
+    font-size: 40px;
+}
+
 .nav-link {
     color: blue;
 }
@@ -206,6 +210,15 @@ hr {
 .form-label-box {
     display: flex;
     width: 145px;
+}
+
+.but-style {
+    color: white;
+    text-decoration: none;
+}
+
+.but-style:hover{
+    color: black;
 }
 
 .aboutus-container {
