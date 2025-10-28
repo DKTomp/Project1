@@ -16,7 +16,7 @@
 .oswald-reg {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -35,7 +35,7 @@ body {
     left: 50%;
     transform: translate(-50%, -100%);
     color: white;
-    font-size: calc(1.75rem + 1vw);
+    font-size: calc(1.25rem + 2vw);
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;

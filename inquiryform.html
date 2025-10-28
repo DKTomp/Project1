@@ -56,49 +56,49 @@
                     <form class="py-3 ps-3" action="https://formspree.io/f/xkgpgrzg" method="post">
                         <div class="form-box">
                             <label for="firstname">First Name</label>
-                            <input class="rounded-2 ms-2" type="text" id="firstname" name="firstname">
+                            <input class="rounded-2 ms-2 oswald-reg" type="text" id="firstname" name="firstname" required>
                         </div>
 
                         <div class="form-box">
                             <label for="lastname">Last Name</label>
-                            <input class="rounded-2 ms-2" type="text" id="lastname" name="lastname">
+                            <input class="rounded-2 ms-2 oswald-reg" type="text" id="lastname" name="lastname" required>
                         </div>
 
                         <div class="form-box">
                             <label for="email"> Email</label>
-                            <input class="rounded-2 ms-2" type="email" name="email" id="email">
+                            <input class="rounded-2 ms-2 oswald-reg" type="email" name="email" id="email" required>
                         </div>
 
                         <div class="form-box">
                             <label for="cellphone">Cell Phone</label>
-                            <input class="rounded-2 ms-2" type="tel" name="cellphone" id="cellphone">
+                            <input class="rounded-2 ms-2 oswald-reg" type="tel" name="cellphone" id="cellphone" required>
                         </div>
 
                         <div class="form-box">
                             <div class="form-label-box">
                                 <label for="where">Where are you looking to adventure?</label>
                             </div>
-                            <textarea class="rounded-2 ms-2" name="where" id="where" rows="1"></textarea>
+                            <textarea class="rounded-2 ms-2 oswald-reg" name="where" id="where" rows="1" required></textarea>
                         </div>
 
                         <div class="form-box">
                             <div class="form-label-box">
-                                <label for="dates">What dates are you looking to book?</label>
+                                <label for="date">What dates are you looking to book?</label>
                             </div>
-                            <input class="rounded-2 ms-2" type="date" name="date" id="date">
+                            <input class="rounded-2 ms-2 oswald-reg" type="date" name="date" id="date" required>
                         </div>
 
                         <div class="form-box">
                             <label for="guests">Number of guests</label>
-                            <input class="rounded-2 ms-2" type="text" id="guests" name="guests">
+                            <input class="rounded-2 ms-2 oswald-reg" type="text" id="guests" name="guests" required>
                         </div>
 
                         <div class="form-box">
                             <div class="form-label-box">
                                 <label for="contact">How would you like to be contacted?</label>
                             </div>
-                            <select class="ms-2" id="contact" name="contact">
-                                <option value="notchosen">Choose an Option..</option>
+                            <select class="ms-2 oswald-reg" id="contact" name="contact" required>
+                                <option value="" disabled selected hidden>Choose an Option..</option>
                                 <option value="phone">Phone</option>
                                 <option value="text">Text</option>
                                 <option value="email">Email</option>
@@ -107,9 +107,9 @@
 
                         <div class="form-box">
                             <div class="form-label-box">
-                                <label for="dates">Anything else you would like to add?</label>
+                                <label for="message">Anything else you would like to add?</label>
                             </div>
-                            <textarea class="rounded-2" name="message" id="message" rows="1"></textarea>
+                            <textarea class="rounded-2 oswald-reg" name="message" id="message" rows="1"></textarea>
                         </div>
 
 
