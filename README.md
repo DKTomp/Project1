@@ -7,7 +7,10 @@ This is a website for an outdoor guide service company.
 This website provides information on the types of guide services and locations offered by the guide service. It allows the user to sumbit forms to the guide service that provide information about the user and the type of guide service, location, and date the user wants.
 
 ## Technologies used: 
-.html, .css, bootstrap
+- **.html**
+- **.css**
+- **boostrap**
+
 
 ## Ideas for future improvements:
 - **Add calendar for user to select dates of services**
