@@ -84,6 +84,7 @@ body {
     flex-flow: row wrap;
     list-style: none;
     justify-content: space-around;
+    margin: 10px 0px 10px 0px
 }
 
 .ad-style {
